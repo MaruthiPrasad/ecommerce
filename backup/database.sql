@@ -131,5 +131,13 @@ CREATE TABLE `payments` (
 
 
 
+insert into `roles` 
+values(1, 'member', 'Regular user with access only to the member area'),
+(2, 'admin', 'Administrative user, has access to almost everything.');
+
+
+
+
+
 
 
